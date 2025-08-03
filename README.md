@@ -34,7 +34,7 @@ AI: Google Gemini API
 
 Runtime: Node.js
 
-本地运行 (Chạy ứng dụng tại Local)
+Chạy ứng dụng tại Local
 
 Phần hướng dẫn này chứa mọi thứ bạn cần để chạy ứng dụng trên máy của mình.
 
@@ -55,12 +55,6 @@ Cài đặt các gói phụ thuộc:
 
 Generated bash
 npm install
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
 
 Thiết lập biến môi trường:
 
@@ -70,21 +64,11 @@ Thêm khóa API của bạn vào file với định dạng sau:
 
 Generated code
 GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
 
 Chạy ứng dụng:
 
 Generated bash
 npm run dev
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
+
 
 Ứng dụng của bạn sẽ chạy tại địa chỉ http://localhost:5174.
